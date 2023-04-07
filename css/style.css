@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    background-color: black;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+canvas {
+    display: block;
+    z-index: 99;
+    position: absolute;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container {
+    display: none;
+    color: white;
+    position: fixed;
+    right: 2rem;
+    width: 20vw;
+    min-height: 10vh;
+    z-index: 9999;
+    top: 9rem;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px 0px 12px 12px;
+    border: 2px solid #00C6FFFF;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.menu {
+    color: white;
+}
+.btn {
+    color: white;
+    position: fixed;
+    left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    top: 9rem;
+    z-index: 9999;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 50%;
+    border: 2px solid #00C6FFFF;
+    padding: 5px;
+}
+.menu-icon {
+    color: white;
+}
+.menu {
+    display: none;
+    color: white;
+    flex-direction: column;
+    gap: 1rem;
+    position: fixed;
+    left: 2rem;
+    width: auto;
+    min-height: 10vh;
+    top: 15rem;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px 0px 12px 12px;
+    border: 2px solid #00C6FFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    z-index: 9999;
+}
